@@ -1,0 +1,142 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8, 71, 126);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.reviews h1{
+    color: aliceblue;
+}
+
+.underline{
+    background-color: rgb(97, 218, 218);
+    width: 80px;
+    height: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+.box-container{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 30px 25px 0 0px blanchedalmond;
+    text-align: center;
+}
+
+.susan{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border-top: 8px solid rgb(162, 227, 227);
+    border-right: 8px solid rgb(162, 227, 227);
+}
+
+.name{
+    margin-top: 15px;
+}
+
+#susan{
+    letter-spacing: .15em;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+#web{
+    text-align: center;
+    color: rgb(53, 157, 157);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: smaller;
+    margin-top: 5px;
+}
+
+#paragraph{
+    text-align: center;
+    margin-top: 20px;
+    width: 350px;
+    height: 200px;
+    font-weight: 400;
+    color: rgb(28, 80, 80);
+}
+.arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    color: rgb(162, 227, 227);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.left-arrow:hover{
+    cursor: pointer;
+    color: rgb(12, 28, 28);
+}
+
+.right-arrow:hover{
+    cursor: pointer;
+    color: rgb(12, 28, 28);
+    
+}
+
+.btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid rgb(34, 36, 36);
+    background-color: rgb(46, 57, 57);
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(203, 223, 223);
+
+}
+
+
+
+.right-arrow, .left-arrow{
+    width: 0;
+    height: 0;
+    border: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+    margin-right: 20px;
+}
